@@ -1,0 +1,28 @@
+{
+	"name": "penblu/soap",
+	"description": "Extension creada por PenBlu para el uso de la libreria SOAP server creada por subdee/yii2-soap-server",
+	"keywords": ["yii2", "soap", "server"],
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/subdee/yii2-soap-server/issues?state=open",
+		"wiki": "https://github.com/subdee/yii2-soap-server/wiki",
+		"source": "https://github.com/subdee/yii2-soap-server"
+	},
+	"license": "GPL-2.0",
+        "authors": [
+           {
+            "name": "Eduardo Cueva",
+            "email": "ecueva@penblu.com"
+           }
+        ],
+	"minimum-stability": "stable",
+	"require": {
+		"ext-soap": "*",
+		"yiisoft/yii2": "*",
+		"codeception/codeception": "*"
+	},
+	"autoload": {
+		"psr-4": {"penblu\\soap\\": ""}
+	}
+}
